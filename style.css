@@ -6,6 +6,7 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+/*---------------------------------------1st main begins-------------------------------------*/
 .mainone {
   background: #1f2937;
 }
@@ -15,8 +16,18 @@ body {
   justify-content: space-between;
 }
 .logo {
+  max-width: 50px;
+  max-height: 50px;
   font-size: 24px;
   color: #f9faf8;
+}
+.logo img {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+  max-height: 50px;
+  max-width: 50px;
+  object-fit: cover;
 }
 .headerlinks ul {
   display: flex;
@@ -54,16 +65,18 @@ body {
   display: block;
 }
 .awesomeheading {
-  max-width: 350px;
+  max-width: 400px;
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
 }
 .awesometext {
+  padding: 5%;
   font-size: 18px;
   color: #e5e7eb;
 }
 .awesomebutton {
+  padding: 20px 10px;
   margin: 10px 0;
 }
 .awesomebutton button {
@@ -73,4 +86,86 @@ body {
   padding-right: 20px;
   background-color: #3882f6;
   color: #e5e7eb;
+}
+/*----------------------2nd main begins------------------------------*/
+.maintwo h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.main2container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 10%;
+  gap: 20px;
+}
+.info1,
+.info2,
+.info3,
+.info4 {
+  flex: 1 1 300px;
+  max-width: 300px;
+}
+.main2container1 img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+.main2container1 p {
+  text-align: center;
+}
+/*---------------------3rd main begins ----------------------*/
+.mainthree {
+  margin-top: 30px;
+}
+.main3div1 {
+  background-color: #e5e7eb;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.main2div1 img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  margin: 0 auto;
+}
+.author {
+  font-weight: bold;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+.mainfour {
+  padding: 4vw;
+}
+.divmain4 {
+  background-color: #3882f6;
+  padding: 40px 50px;
+  display: flex;
+  border-radius: 8px;
+  justify-content: space-around;
+  align-items: center;
+}
+.divmain4 button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 10px;
+  border-radius: 5px;
+}
+.divmain4 h4 {
+  font-weight: 500px;
+}
+.divmain4 .text {
+  color: #e5e7eb;
+}
+.footer {
+  padding: 2vw;
+  text-align: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+.contact {
+  font-weight: bolder;
 }
